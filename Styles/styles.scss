@@ -138,7 +138,7 @@ footer{
 .copyright{
   text-align:left;
   margin:0 auto;
-  padding:0 auto:
+  padding:0 auto;
 }
 .container2{
 }
@@ -172,10 +172,12 @@ blockquote p{
 .aside{
   display:inline-block;
   vertical-align:top;
-  display:inline-block;
   margin-top:100px;
   padding:20px;
   width:30%;
+}
+.socialmedia{
+  align:center;
 }
 .head1{
   text-align:center;
@@ -183,6 +185,11 @@ blockquote p{
 .head1 img{
   border-radius:100%;
   background-color:#2464A0;
+}
+.box h2{
+  text-align:center;
+  font-weight:300;
+  color:#2464A0;
 }
 .box1 h3{
   text-align:center;
@@ -220,6 +227,12 @@ blockquote p{
 }
 .box2 a{
   text-align:left;
+}
+.box2 ul{
+  text-align:center;
+}
+.box2 img{
+  width:100%;
 }
 .grid{
   display:inline-block;
@@ -274,7 +287,7 @@ blockquote p{
 }
 .copyright{
   display:inline-block;
-  height:100%
+  height:100%;
   margin-bottom:25px;
   padding:10px;
 }
@@ -283,7 +296,7 @@ footer{
   margin:0 auto;
   padding: 0 auto;
   width:100%;
-  height:150px;
+  height:percentage(150px / 960px);
   background-color:#2464A0;
 }
 footer li{
@@ -294,4 +307,232 @@ footer li{
 }
 nav{
   color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 320px) {
+  .logo img{
+    display: block;
+    float:center;
+    margin-top:22px;
+    margin-left:110px;
+  }
+  .logo p{
+    display:none;
+    float:center;
+  }
+  .header {
+    width:100%;
+  }
+
+  header h1{
+    float:center;
+    top:percentage(350px / 960px);
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:2em;
+  }
+  header .subtitle{
+    float:left;
+    top:percentage(670px / 960px);
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:1em;
+  }
+
+  h2{
+    font-size: 3em;
+    margin:0 auto;
+    float:left;
+    width: 100%;
+    color:#2e5a7f;
+  }
+  .container{
+    width:80%;
+  }
+  .section{
+    margin:0 auto;
+    padding:percentage(10px / 960px);
+    padding-top:percentage(80px / 960px);
+    width:100%;
+  }
+  .aside{
+    margin:0 auto;
+    padding:percentage(10px / 960px);
+    padding-top:percentage(80px / 960px);
+    padding-bottom:30px;
+    width:100%;
+  }
+  .postid{
+    padding:percentage(10px / 960px);
+    margin:0 auto;
+    width:100%;
+  }
+  header nav{
+    float:center;
+    width:100%;
+  }
+  header nav ul{
+    float:center;
+    padding-left:50px;
+    margin-top:5px;
+  }
+  header nav li{
+    padding:10px;
+  }
+  .nav a{
+    size:3em;
+  }
+  .nav ul{
+    width:100%;
+    float:center;
+  }
+  .nav img{
+    display:none;
+  }
+  .postid img{
+    display:none;
+  }
+  .postid p{
+    color:lightgrey;
+    font-size:1em;
+    text-decoration:underline;
+  }
+  .blockquote{
+    float:left;
+    margin:0 auto;
+  }
+  .vertical-line{
+    border-left:thick solid lightgrey;
+    height:77px;
+    padding: -25px;
+    margin: 0 auto;
+  }
+  .box h2{
+    padding-top:30px;
+    font-size:2.5em;
+
+  }
+  .box1 ul{
+    margin:0 auto;
+    text-align:center;
+    padding:percentage(60px / 256px);
+    padding-top:percentage(.8px / 259px);
+  }
+  .box1 li{
+    color:lightgrey;
+  }
+  .grid{
+    display:inline;
+    width:100%;
+    position:relative;
+    padding:percentage(60px / 256px);
+  }
+  .float1{
+    width:80%;
+    float:center;
+    background:white;
+    padding:percentage(30px / 256px);
+    padding-top:percentage(1px / 256px);
+  }
+
+  .float1 img{
+    max-width:100%;
+  }
+
+
+  .float2{
+    width:80%;
+    float:center;
+    background:white;
+    padding:percentage(30px / 256px);
+    padding-top:percentage(1px / 256px);
+  }
+
+  .float2 img{
+    max-width:100%;
+  }
+
+
+  .float3{
+    width:80%;
+    float:center;
+    background:white;
+    padding:percentage(30px / 256px);
+    padding-top:percentage(1px / 256px);
+  }
+
+  .float3 img{
+    max-width:100%;
+  }
+.quote{
+  padding-top:10px;
+  padding-left:-20px;
+
+}
+.p2{
+  padding-top:50px;
+}
+
+  .float4{
+    width:80%;
+    float:center;
+    background:white;
+    padding:percentage(30px / 256px);
+    padding-top:percentage(1px / 256px);
+  }
+
+  .float4 img{
+    max-width:100%;
+    background:blue;
+  }
+  .box3{
+    display:none;
+  }
+  .copyright{
+    text-align:center;
+    padding:50px;
+  }
+  .copyright p{
+    color:white;
+  }
+  .bottomnav nav{
+    right:50px;
+  }
+  .bottomnav nav ul{
+    text-align:center;
+    padding-left:0;
+  }
+  .bottomnav nav li{
+    text-align:left;
+  }
+  .bottomnav a{
+    color:white;
+  }
+  .header nav{
+    text-align:center;
+  }
 }
